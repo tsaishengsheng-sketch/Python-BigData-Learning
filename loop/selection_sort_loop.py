@@ -1,3 +1,8 @@
+"""
+檔名：selection_sort_loop.py
+功能：迴圈演算法練習
+學習重點：for/while 迭代、控制流程
+"""
 import random
 lst = []
 for i in range(1,11):

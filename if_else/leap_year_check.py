@@ -1,3 +1,8 @@
+"""
+檔名：leap_year_check.py
+功能：邏輯判斷練習
+學習重點：條件分歧、布林邏輯運算
+"""
 year = eval(input('Enter a year '))
 con1 = year % 400 == 0
 con2 = year % 4 == 0 

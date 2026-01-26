@@ -1,3 +1,8 @@
+"""
+檔名：random_count_input.py
+功能：函式封裝練習
+學習重點：參數傳遞、Return 回傳值應用
+"""
 import random
 def rand(a, b, n):
     for i in range(1, n+1):

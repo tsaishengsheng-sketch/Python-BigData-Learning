@@ -1,3 +1,8 @@
+"""
+檔名：guess_1_50.py
+功能：邏輯判斷練習
+學習重點：條件分歧、布林邏輯運算
+"""
 number = 0
 set1 = 'Is your number in this set1? \n'+ \
      ' 1, 3, 5, 7\n' + \

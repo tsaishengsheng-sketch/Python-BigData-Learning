@@ -1,3 +1,8 @@
+"""
+檔名：election_simulator.py
+功能：函式封裝練習
+學習重點：參數傳遞、Return 回傳值應用
+"""
 def menu():
     print('--- 候選人名單 ---')
     print('(1) 小柯  (2) 小丁  (3) 小糖')

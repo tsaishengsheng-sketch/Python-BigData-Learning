@@ -1,3 +1,8 @@
+"""
+檔名：multiple_checker.py
+功能：邏輯判斷練習
+學習重點：條件分歧、布林邏輯運算
+"""
 import random
 num = random.randint(1, 1000)
 if num % 3 == 0:

@@ -1,3 +1,8 @@
+"""
+檔名：quadratic_solver.py
+功能：邏輯判斷練習
+學習重點：條件分歧、布林邏輯運算
+"""
 # 提示使用者一次輸入 a, b, c
 a, b, c = map(float, input("請輸入 a b c (用空格隔開): ").split())
 

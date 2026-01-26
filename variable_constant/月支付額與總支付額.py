@@ -1,3 +1,8 @@
+"""
+檔名：月支付額與總支付額.py
+功能：基礎語法練習
+學習重點：變數賦值、基本數學運算
+"""
 rate = eval(input('Annual rate: '))
 amount = eval(input('Enter Loan amount: '))
 year = eval(input('Enter number of years: '))

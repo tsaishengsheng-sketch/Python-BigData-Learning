@@ -1,3 +1,8 @@
+"""
+檔名：pi_calculator.py
+功能：函式封裝練習
+學習重點：參數傳遞、Return 回傳值應用
+"""
 def pi (x):
     sum = 0
     for i in range(1, x+2, 100):

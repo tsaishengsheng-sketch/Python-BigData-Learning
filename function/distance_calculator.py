@@ -1,3 +1,8 @@
+"""
+檔名：distance_calculator.py
+功能：函式封裝練習
+學習重點：參數傳遞、Return 回傳值應用
+"""
 import math 
 
 def distance(x1, y1, x2, y2):

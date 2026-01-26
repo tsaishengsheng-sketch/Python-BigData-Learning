@@ -1,3 +1,8 @@
+"""
+檔名：grade_level_check.py
+功能：邏輯判斷練習
+學習重點：條件分歧、布林邏輯運算
+"""
 score = eval(input('Enter your scare: '))
 if score >= 80:
     print('Your GPA is A.')

@@ -1,3 +1,8 @@
+"""
+檔名：prime_1_100_paged.py
+功能：迴圈演算法練習
+學習重點：for/while 迭代、控制流程
+"""
 count = 0
 for i in range(2, 101):
     divisor = 2

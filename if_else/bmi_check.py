@@ -1,3 +1,8 @@
+"""
+檔名：bmi_check.py
+功能：邏輯判斷練習
+學習重點：條件分歧、布林邏輯運算
+"""
 weight = eval(input('Enter your weight: '))
 height = eval(input('Enter your height: '))
 heightMeter = height / 100

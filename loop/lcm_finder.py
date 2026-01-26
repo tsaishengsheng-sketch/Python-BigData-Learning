@@ -1,3 +1,8 @@
+"""
+檔名：lcm_finder.py
+功能：迴圈演算法練習
+學習重點：for/while 迭代、控制流程
+"""
 gcd = 1
 n = 2
 a = eval(input('Enter a number:'))

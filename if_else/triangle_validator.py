@@ -1,3 +1,8 @@
+"""
+檔名：triangle_validator.py
+功能：邏輯判斷練習
+學習重點：條件分歧、布林邏輯運算
+"""
 a = float(input('輸入第一個邊長 a:'))
 b = float(input('輸入第一個邊長 b:'))
 c = float(input('輸入第一個邊長 c:'))

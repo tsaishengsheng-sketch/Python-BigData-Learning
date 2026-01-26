@@ -1,3 +1,8 @@
+"""
+檔名：bubble_sort.py
+功能：資料結構與排序
+學習重點：串列操作、演算法效率優化
+"""
 import random
 lst = []
 for i in range(1, 11):

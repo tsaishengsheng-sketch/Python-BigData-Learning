@@ -1,3 +1,8 @@
+"""
+檔名：畫出三角函式.py
+功能：基礎語法練習
+學習重點：變數賦值、基本數學運算
+"""
 import math
 #print sin
 print('sin(0): %.2f'%(math.sin(0)))

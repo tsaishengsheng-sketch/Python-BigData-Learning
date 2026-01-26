@@ -1,3 +1,8 @@
+"""
+檔名：bmi_calculator.py
+功能：函式封裝練習
+學習重點：參數傳遞、Return 回傳值應用
+"""
 def bmi(wei,hei):
     heiM = hei /100
     bmi = wei / (heiM ** 2)

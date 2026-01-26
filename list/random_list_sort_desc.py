@@ -1,3 +1,8 @@
+"""
+檔名：random_list_sort_desc.py
+功能：資料結構與排序
+學習重點：串列操作、演算法效率優化
+"""
 import random
 def main():
     Lst = []

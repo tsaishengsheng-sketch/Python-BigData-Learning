@@ -1,3 +1,8 @@
+"""
+檔名：zodiac_calculator.py
+功能：邏輯判斷練習
+學習重點：條件分歧、布林邏輯運算
+"""
 year = eval(input('Enter your birthday year: '))
 print('Your zodic is ', end = '')
 zodic = year % 12
