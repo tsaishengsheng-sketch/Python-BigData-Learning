@@ -19,3 +19,16 @@
 ## 🛠️ 開發工具
 - **Environment**: macOS M2 Air / VS Code
 - **Control**: Git / GitHub CLI
+
+- ## 📂 專案結構
+```
+.
+├── function/           # 函式封裝與參數應用
+├── if_else/            # 基礎邏輯與條件分支
+├── list/               # 串列操作與搜尋、排序演算法
+├── loop/               # 迴圈控制與數值計算
+├── variable_constant/  # 基礎語法與變數運算
+├── LICENSE             # MIT 開源授權書
+├── README.md           # 專案說明文件
+└── add_docstrings.py   # 自動化註解腳本
+```
