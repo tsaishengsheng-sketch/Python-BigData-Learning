@@ -1,5 +1,3 @@
-MIT License
-
 Copyright (c) 2026 tsaishengsheng-sketch
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -11,6 +9,15 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+
+---
+SPECIAL NOTICE:
+This repository contains personal implementations of exercises from the course/book 
+"Python Big Data" by instructor Ming-Chi Tsai (蔡明志老師). 
+While the implementation code is licensed under MIT, the original problem statements, 
+course structure, and instructional logic remain the intellectual property of the 
+original author. 
+---
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
