@@ -1,9 +1,18 @@
+# macOS 系統檔案
 .DS_Store
+
+# Python 自動產生的快取
 __pycache__/
 *.py[cod]
 *$py.class
+
+# 虛擬環境
 venv/
 .venv/
 env/
+
+# 大數據練習可能產生的記錄檔
 *.log
+
+# VS Code 專案設定
 .vscode/
