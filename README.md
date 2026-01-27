@@ -1,11 +1,12 @@
 # 🐍 Python Big Data Learning
 > **課程實作紀錄**：蔡明志老師《Python大數據》練習題彙整
 
-![Python](https://img.shields.io/badge/Python-3.13-blue?style=flat-square&logo=python)
+![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat-square&logo=python)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
+![Format](https://img.shields.io/badge/Format-Jupyter_Notebook-orange?style=flat-square&logo=jupyter)
 
 ## 📂 專案導覽
-為了提升維護性，本專案已完成全英文命名重構：
+本專案已完成全英文命名重構，並全面轉化為 **Jupyter Notebook (.ipynb)** 格式，提供更佳的語法高亮與執行結果展示：
 
 | 單元目錄 | 內容說明 | 關鍵技術 |
 | :--- | :--- | :--- |
@@ -16,31 +17,44 @@
 | **[Basics](./variable_constant)** | 基礎運算與幾何 | 變數運算、幾何公式 |
 
 ---
-## 🛠️ 工具
-- **Environment**: macOS M2 Air / VS Code
-- **Control**: Git / GitHub CLI
 
-### 🚀 快速開始
+## 🛠️ 開發環境
+- **Hardware**: macOS MacBook Air (M series)
+- **Editor**: VS Code
+- **Version Control**: Git / GitHub
+---
+
+## 🚀 快速開始
+
+### 1. 複製專案
+
 ```bash
 # 複製專案
 git clone [https://github.com/tsaishengsheng-sketch/Python-BigData-Learning.git](https://github.com/tsaishengsheng-sketch/Python-BigData-Learning.git)
 
+# 建立並啟動虛擬環境
+python3 -m venv venv
+source venv/bin/activate  # macOS/Linux
+
+
 # 進入資料夾
 cd Python-BigData-Learning
 
-# 安裝依賴套件
+# 安裝 requirements.txt 中的依賴套件 (建議在 venv 環境下執行)
 pip install -r requirements.txt
 ```
+
+
 - ## 📂 專案結構
 ```text
 .
-├── function/            # 函式封裝與參數應用
-├── if_else/             # 基礎邏輯與條件分支
-├── list/                # 串列操作與搜尋、排序
-├── loop/                # 迴圈控制與數值計算
-├── utils/               # 工具程式
-├── variable_constant/   # 基礎語法與變數運算
+├── function/            # 16 個函式練習 (互動式筆記本)
+├── if_else/             # 14 個邏輯判斷練習 (互動式筆記本)
+├── list/                # 8 個演算法與資料結構練習
+├── loop/                # 25 個迴圈控制練習 (排序、質數搜尋等)
+├── variable_constant/   # 5 個基礎運算練習
+├── utils/               # 專案輔助工具
 ├── LICENSE              # MIT 開源授權書
 ├── README.md            # 專案說明文件
-└── requirements.txt     # 套件依賴清單
+└── requirements.txt     # 套件依賴清單 
 ```
