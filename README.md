@@ -26,14 +26,14 @@
 
 ## 🚀 快速開始
 
-### 1. 複製專案
+###  複製專案
 
 ```bash
-# 複製專案並進入資料夾
+### 1. 複製專案並進入資料夾
 git clone https://github.com/tsaishengsheng-sketch/Python-BigData-Learning.git
 cd Python-BigData-Learning
 
-# 建立並啟動虛擬環境
+### 2. 建立並啟動虛擬環境
 python3 -m venv venv
 source venv/bin/activate  # macOS/Linux
 
