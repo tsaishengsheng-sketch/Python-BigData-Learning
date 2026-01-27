@@ -29,19 +29,23 @@
 ### 1. 複製專案
 
 ```bash
-# 複製專案
-git clone [https://github.com/tsaishengsheng-sketch/Python-BigData-Learning.git](https://github.com/tsaishengsheng-sketch/Python-BigData-Learning.git)
+# 複製專案並進入資料夾
+git clone https://github.com/tsaishengsheng-sketch/Python-BigData-Learning.git
+cd Python-BigData-Learning
 
 # 建立並啟動虛擬環境
 python3 -m venv venv
 source venv/bin/activate  # macOS/Linux
 
 
-# 進入資料夾
-cd Python-BigData-Learning
-
-# 安裝 requirements.txt 中的依賴套件 (建議在 venv 環境下執行)
+### 3. 安裝依賴套件
+pip install --upgrade pip
 pip install -r requirements.txt
+
+### 4. 自動化工具使用 (可選)
+# 幫練習題加上標註並同步轉檔為 Notebook
+python3 utils/add_docstrings.py
+jupytext --to notebook */*.py
 ```
 
 
