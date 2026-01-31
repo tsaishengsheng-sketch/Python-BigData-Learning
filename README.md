@@ -54,7 +54,7 @@ jupytext --to notebook */*.py
 .
 ├── function/            # 16 個函式練習 (互動式筆記本)
 ├── if_else/             # 14 個邏輯判斷練習 (互動式筆記本)
-├── list/                # 8 個演算法與資料結構練習
+├── list/                # 14 個演算法與資料結構練習
 ├── loop/                # 25 個迴圈控制練習 (排序、質數搜尋等)
 ├── variable_constant/   # 5 個基礎運算練習
 ├── utils/               # 專案輔助工具
