@@ -7,9 +7,9 @@
 
 ## 📂 專案導覽
 本專案已完成全英文命名重構，並全面轉化為 **Jupyter Notebook (.ipynb)** 格式，提供更佳的語法高亮與執行結果展示：
-
 | 單元目錄 | 內容說明 | 關鍵技術 |
 | :--- | :--- | :--- |
+| **[Multi-List](./multidimensional_list)** | 多維串列應用 | 矩陣運算、巢狀迴圈、資料表格 |
 | **[Logic](./if_else)** | 選擇結構與條件分支 | 邏輯判斷、例外處理 |
 | **[Loops](./loop)** | 迭代結構與演算法 | 質數搜尋、排序演算法 |
 | **[Functions](./function)** | 程式模組化與封裝 | 函式定義、參數傳遞 |
@@ -52,10 +52,11 @@ jupytext --to notebook */*.py
 - ## 📂 專案結構
 ```text
 .
-├── function/            # 16 個函式練習 (互動式筆記本)
-├── if_else/             # 14 個邏輯判斷練習 (互動式筆記本)
+├── multidimensional_list/ # 多維串列與矩陣練習 (持續更新中) 🆕
+├── function/            # 16 個函式練習 
+├── if_else/             # 14 個邏輯判斷練習
 ├── list/                # 14 個演算法與資料結構練習
-├── loop/                # 25 個迴圈控制練習 (排序、質數搜尋等)
+├── loop/                # 25 個迴圈控制練習
 ├── variable_constant/   # 5 個基礎運算練習
 ├── utils/               # 專案輔助工具
 ├── LICENSE              # MIT 開源授權書
