@@ -1,5 +1,5 @@
 # 🐍 Python Big Data Learning
-> **課程實作紀錄**：蔡明志老師《Python大數據》練習題彙整
+> **課程實作紀錄**：蔡明志老師《Python大數據》練習題彙整~
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat-square&logo=python)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
@@ -63,3 +63,5 @@ jupytext --to notebook */*.py
 ├── README.md            # 專案說明文件
 └── requirements.txt     # 套件依賴清單 
 ```
+
+
