@@ -8,7 +8,8 @@
 ## 🌟 階段性小成果
 * **[SmartLife_Toolbox.py](./if_else/SmartLife_Toolbox.py)**：整合 if-else 邏輯，包含 BMI、星座與閏年查詢。
 * **[Loop_Practice_Tool.py](./loop/Loop_Practice_Tool.py)**：整合 25+ 迴圈練習，含九九乘法、質數分析與排序演算法。
-* **[Smart_Award_System.py](./function/Smart_Award_System.py)**：**【New】** 整合 Function 模組化練習，實作具備安全驗證與門檻判定的年度評選系統。
+* **[Smart_Award_System.py](./function/Smart_Award_System.py)**：整合 Function 模組化練習，實作具備安全驗證與門檻判定的評選系統。
+* **[Smart_Inventory_System.py](./list/Smart_Inventory_System.py)**：**【New】** 整合 List 演算法，實作具備排序與二分搜尋功能的電商庫存管理系統。
 * **[自動標註腳本](./utils/add_docstrings.py)**：自動化處理檔案說明，提升歸檔效率。
 
 ---
@@ -20,9 +21,9 @@
 | :--- | :--- | :--- |
 | **[Logic](./if_else)** | 邏輯判定與歸檔 | 條件分支、SmartLife 整合工具 |
 | **[Loops](./loop)** | 迭代結構 | 質數搜尋、選擇排序、Loop 整合工具 |
-| **[Functions](./function)** | 程式模組化 | **安全驗證、權限控管、幾何與統計模組整合** |
+| **[Functions](./function)** | 程式模組化 | 安全驗證、權限控管、模組化整合 |
+| **[Data Structures](./list)** | 串列與演算法 | **氣泡/選擇排序、二分搜尋、庫存管理系統** |
 | **[Multi-List](./multidimensional_list)** | 多維串列應用 | 矩陣運算、巢狀迴圈、資料表格 |
-| **[Data Structures](./list)** | 資料結構 | 氣泡排序、二元搜尋 |
 | **[Basics](./variable_constant)** | 基礎運算 | 變數處理、幾何公式計算 |
 
 ---
@@ -68,7 +69,9 @@ jupytext --to notebook **/learning/*.py
 ├── function/                
 │   ├── Smart_Award_System.py # 🏆 函式整合作品 (年度評選系統)
 │   └── learning/             # 📚 練習題歸檔 (ipynb)
-├── list/                    # 演算法與資料結構練習 (排序、搜尋)
+├── list/                    
+│   ├── Smart_Inventory_System.py # 🏆 庫存演算法整合作品
+│   └── learning/             # 📚 練習題歸檔 (排序、搜尋)
 ├── multidimensional_list/    # 多維串列與矩陣練習
 ├── variable_constant/        # 基礎變數運算練習
 ├── utils/                   # 🛠️ 專案輔助工具 (自動標註腳本)
