@@ -6,6 +6,7 @@
 ![Format](https://img.shields.io/badge/Format-Jupyter_Notebook-orange?style=flat-square&logo=jupyter)
 
 ## 🌟 階段性小成果
+* **[RealEstate_Investment_Analyzer.py](./variable_constant/RealEstate_Investment_Analyzer.py)**：**【重點】** 整合數位校驗、三角地產估價與房貸利息壓測，揭示 40 年房貸高達 71% 的資金成本。
 * **[SmartLife_Toolbox.py](./if_else/SmartLife_Toolbox.py)**：整合 if-else 邏輯，包含 BMI、星座與閏年查詢。
 * **[Loop_Practice_Tool.py](./loop/Loop_Practice_Tool.py)**：整合 25+ 迴圈練習，含九九乘法、質數分析與排序演算法。
 * **[Smart_Award_System.py](./function/Smart_Award_System.py)**：整合 Function 模組化練習，實作具備安全驗證與門檻判定的評選系統。
@@ -19,12 +20,11 @@
 
 | 單元目錄 | 內容說明 | 核心實作重點 |
 | :--- | :--- | :--- |
-| **[Logic](./if_else)** | 邏輯判定與歸檔 | 條件分支、SmartLife 整合工具 |
-| **[Loops](./loop)** | 迭代結構 | 質數搜尋、選擇排序、Loop 整合工具 |
-| **[Functions](./function)** | 程式模組化 | 安全驗證、權限控管、模組化整合 |
-| **[Data Structures](./list)** | 串列與演算法 | **氣泡/選擇排序、二分搜尋、庫存管理系統** |
-| **[Multi-List](./multidimensional_list)** | 多維串列應用 | 矩陣運算、巢狀迴圈、資料表格 |
-| **[Basics](./variable_constant)** | 基礎運算 | 變數處理、幾何公式計算 |
+| [📐 Variable Constant](./variable_constant/) | **地產投資分析器** | 數位拆解、財務複利、三角估價 | ✅ 完成 |
+| [🔀 If-Else Logic](./if_else/) | **智慧生活工具箱** | 條件分歧、防呆機制、邏輯判定 | 🛠️ 進行中 |
+| [🔁 Loop Practice](./loop/) | **多功能迴圈工具** | 規律生成、質數判定、排序基礎 | 🛠️ 進行中 |
+| [📦 List Algorithm](./list/) | **電商大數據中心** | 串列操作、搜尋與排序演算法 | 🛠️ 進行中 |
+| [📦 Function Module](./function/) | **智慧年度評選系統** | 封裝邏輯、參數傳遞、系統整合 | 
 
 ---
 
@@ -60,19 +60,21 @@ jupytext --to notebook **/learning/*.py
 - ## 📂 專案結構
 ```text
 .
-├── if_else/             
-│   ├── SmartLife_Toolbox.py  # 🏆 邏輯整合作品
-│   └── learning/             # 📚 練習題歸檔 (ipynb)
-├── loop/                
-│   ├── Loop_Practice_Tool.py # 🏆 迴圈整合作品
-│   └── learning/             # 📚 練習題歸檔 (ipynb)
-├── function/                
-│   ├── Smart_Award_System.py # 🏆 函式整合作品 (年度評選系統)
-│   └── learning/             # 📚 練習題歸檔 (ipynb)
-├── list/                    
-│   ├── Smart_Inventory_System.py # 🏆 庫存演算法整合作品
-│   └── learning/             # 📚 練習題歸檔 (排序、搜尋)
-├── multidimensional_list/    # 多維串列與矩陣練習
-├── variable_constant/        # 基礎變數運算練習
-├── utils/                   # 🛠️ 專案輔助工具 (自動標註腳本)
-└── README.md
+├── variable_constant/        # 📐 基礎變數運算與地產投資分析
+│   ├── RealEstate_Investment_Analyzer.py  # 🏆 核心作品
+│   └── learning/                          # 📚 練習題歸檔
+├── if_else/                  # 🔀 邏輯判定與智慧生活工具
+│   ├── SmartLife_Toolbox.py               # 🏆 核心作品
+│   └── learning/                          # 📚 練習題歸檔
+├── loop/                     # 🔁 迴圈控制與多功能工具
+│   ├── Loop_Practice_Tool.py              # 🏆 核心作品
+│   └── learning/                          # 📚 練習題歸檔
+├── function/                 # 📦 函式模組化與年度評選系統
+│   ├── Smart_Award_System.py              # 🏆 核心作品
+│   └── learning/                          # 📚 練習題歸檔
+├── list/                     # 📊 串列演算法與庫存管理系統
+│   ├── Smart_Inventory_System.py          # 🏆 核心作品
+│   └── learning/                          # 📚 排序、搜尋練習
+├── multidimensional_list/    # 🧬 多維串列與矩陣運算實作
+├── utils/                    # 🛠️ 專案輔助工具 (README 自動化生成腳本、自動標註腳本)
+└── README.md                 # 🗺️ 專案總覽導覽
