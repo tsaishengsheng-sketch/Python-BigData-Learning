@@ -18,15 +18,14 @@
 
 ## 📂 專案導覽
 專案採 **「.py 執行檔 + .ipynb 預覽檔」** 雙軌制，兼顧自動化處理與 GitHub 直接閱讀體驗：
-
-| 單元目錄 | 內容說明 | 核心實作重點 |
-| :--- | :--- | :--- |
+| 單元目錄 | 內容說明 | 核心實作重點 | 狀態 |
+| :--- | :--- | :--- | :--- |
 | [📐 Variable Constant](./variable_constant/) | **地產投資分析器** | 數位拆解、財務複利、三角估價 | ✅ 完成 |
-| [🔀 If-Else Logic](./if_else/) | **智慧生活工具箱** | 條件分歧、防呆機制、邏輯判定 | 🛠️ 進行中 |
-| [🔁 Loop Practice](./loop/) | **多功能迴圈工具** | 規律生成、質數判定、排序基礎 | 🛠️ 進行中 |
-| [📦 List Algorithm](./list/) | **電商大數據中心** | 串列操作、搜尋與排序演算法 | 🛠️ 進行中 |
-| [📦 Function Module](./function/) | **智慧年度評選系統** | 封裝邏輯、參數傳遞、系統整合 | 
-
+| [🔀 If-Else Logic](./if_else/) | **智慧生活工具箱** | 條件分歧、防呆機制、邏輯判定 | ✅ 完成 |
+| [🔁 Loop Practice](./loop/) | **多功能迴圈工具** | 規律生成、質數判定、排序基礎 | ✅ 完成 |
+| [📦 List Algorithm](./list/) | **電商大數據中心** | 串列操作、搜尋與排序演算法 | ✅ 完成 |
+| [📦 Function Module](./function/) | **智慧年度評選系統** | 封裝邏輯、參數傳遞、系統整合 | ✅ 完成 |
+| [📊 Multidimensional](./multidimensional_list/) | **智慧物流分析系統** | 矩陣同步、路徑優化、視覺化報表 | ✅ 完成 |
 ---
 
 ## 🛠️ 開發環境
@@ -77,7 +76,7 @@ jupytext --to notebook **/learning/*.py
 │   ├── Smart_Inventory_System.py          # 🏆 核心作品
 │   └── learning/                          # 📚 排序、搜尋練習
 ├── multidimensional_list/    # 🧬 多維矩陣運算與物流分析系統 (🏆 New)
-│   ├── Smart_Logistics_Matrix_System.py   # 核心作品
+│   ├── Smart_Logistics_Matrix_System.py   # 核心作品gi
 │   └── learning/             # 矩陣練習歸檔
 ├── utils/                    # 🛠️ 專案輔助工具 (README 自動化生成腳本、自動標註腳本)
 └── README.md                 # 🗺️ 專案總覽導覽
