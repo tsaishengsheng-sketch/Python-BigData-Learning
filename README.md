@@ -6,6 +6,7 @@
 ![Format](https://img.shields.io/badge/Format-Jupyter_Notebook-orange?style=flat-square&logo=jupyter)
 
 ## 🌟 階段性小成果
+* **[Smart_Logistics_Matrix_System.py](./multidimensional_list/Smart_Logistics_Matrix_System.py)**：**【重點】** 實作 100% 視覺化對齊報表，整合跨區庫存同步 (A+B=Total) 與物流路徑壓力分析。
 * **[RealEstate_Investment_Analyzer.py](./variable_constant/RealEstate_Investment_Analyzer.py)**：**【重點】** 整合數位校驗、三角地產估價與房貸利息壓測，揭示 40 年房貸高達 71% 的資金成本。
 * **[SmartLife_Toolbox.py](./if_else/SmartLife_Toolbox.py)**：整合 if-else 邏輯，包含 BMI、星座與閏年查詢。
 * **[Loop_Practice_Tool.py](./loop/Loop_Practice_Tool.py)**：整合 25+ 迴圈練習，含九九乘法、質數分析與排序演算法。
@@ -75,6 +76,8 @@ jupytext --to notebook **/learning/*.py
 ├── list/                     # 📊 串列演算法與庫存管理系統
 │   ├── Smart_Inventory_System.py          # 🏆 核心作品
 │   └── learning/                          # 📚 排序、搜尋練習
-├── multidimensional_list/    # 🧬 多維串列與矩陣運算實作
+├── multidimensional_list/    # 🧬 多維矩陣運算與物流分析系統 (🏆 New)
+│   ├── Smart_Logistics_Matrix_System.py   # 核心作品
+│   └── learning/             # 矩陣練習歸檔
 ├── utils/                    # 🛠️ 專案輔助工具 (README 自動化生成腳本、自動標註腳本)
 └── README.md                 # 🗺️ 專案總覽導覽
