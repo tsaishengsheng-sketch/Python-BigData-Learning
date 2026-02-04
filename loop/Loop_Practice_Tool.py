@@ -1,3 +1,8 @@
+"""
+檔名：Loop_Practice_Tool.py
+功能：迴圈演算法練習
+學習重點：for/while 迭代、控制流程
+"""
 import random
 
 def main():
