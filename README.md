@@ -6,9 +6,10 @@
 ![Format](https://img.shields.io/badge/Format-Jupyter_Notebook-orange?style=flat-square&logo=jupyter)
 
 ## 🌟 階段性小成果
-* **[SmartLife_Toolbox.py](./if_else/SmartLife_Toolbox.py)**：這是我把學到的 if-else 邏輯通通串起來做成的小工具，可以用來算 BMI、看星座和查閏年。
-* **[Loop_Practice_Tool.py](./loop/Loop_Practice_Tool.py)**：整合 25+ 個迴圈練習，包含九九乘法、質數分析與選擇排序演算法。
-* **[自動標註腳本](./utils/add_docstrings.py)**：因為練習題很多，我寫了一個小程式幫我自動加上檔案說明，省去手動輸入的時間。
+* **[SmartLife_Toolbox.py](./if_else/SmartLife_Toolbox.py)**：整合 if-else 邏輯，包含 BMI、星座與閏年查詢。
+* **[Loop_Practice_Tool.py](./loop/Loop_Practice_Tool.py)**：整合 25+ 迴圈練習，含九九乘法、質數分析與排序演算法。
+* **[Smart_Award_System.py](./function/Smart_Award_System.py)**：**【New】** 整合 Function 模組化練習，實作具備安全驗證與門檻判定的年度評選系統。
+* **[自動標註腳本](./utils/add_docstrings.py)**：自動化處理檔案說明，提升歸檔效率。
 
 ---
 
@@ -19,8 +20,8 @@
 | :--- | :--- | :--- |
 | **[Logic](./if_else)** | 邏輯判定與歸檔 | 條件分支、SmartLife 整合工具 |
 | **[Loops](./loop)** | 迭代結構 | 質數搜尋、選擇排序、Loop 整合工具 |
+| **[Functions](./function)** | 程式模組化 | **安全驗證、權限控管、幾何與統計模組整合** |
 | **[Multi-List](./multidimensional_list)** | 多維串列應用 | 矩陣運算、巢狀迴圈、資料表格 |
-| **[Functions](./function)** | 程式模組化 | 函式定義、參數傳遞 |
 | **[Data Structures](./list)** | 資料結構 | 氣泡排序、二元搜尋 |
 | **[Basics](./variable_constant)** | 基礎運算 | 變數處理、幾何公式計算 |
 
@@ -64,12 +65,11 @@ jupytext --to notebook **/learning/*.py
 ├── loop/                
 │   ├── Loop_Practice_Tool.py # 🏆 迴圈整合作品
 │   └── learning/             # 📚 練習題歸檔 (ipynb)
-├── function/                # 函式模組化練習
-├── list/                    # 演算法與資料結構練習
+├── function/                
+│   ├── Smart_Award_System.py # 🏆 函式整合作品 (年度評選系統)
+│   └── learning/             # 📚 練習題歸檔 (ipynb)
+├── list/                    # 演算法與資料結構練習 (排序、搜尋)
 ├── multidimensional_list/    # 多維串列與矩陣練習
 ├── variable_constant/        # 基礎變數運算練習
-├── utils/                   # 🛠️ 專案開發輔助工具 (自動標註腳本)
+├── utils/                   # 🛠️ 專案輔助工具 (自動標註腳本)
 └── README.md
-```
-
-
