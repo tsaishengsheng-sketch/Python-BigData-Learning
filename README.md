@@ -7,6 +7,7 @@
 
 ## 🌟 階段性小成果
 * **[SmartLife_Toolbox.py](./if_else/SmartLife_Toolbox.py)**：這是我把學到的 if-else 邏輯通通串起來做成的小工具，可以用來算 BMI、看星座和查閏年。
+* **[Loop_Practice_Tool.py](./loop/Loop_Practice_Tool.py)**：整合 25+ 個迴圈練習，包含九九乘法、質數分析與選擇排序演算法。
 * **[自動標註腳本](./utils/add_docstrings.py)**：因為練習題很多，我寫了一個小程式幫我自動加上檔案說明，省去手動輸入的時間。
 
 ---
@@ -14,11 +15,11 @@
 ## 📂 專案導覽
 專案採 **「.py 執行檔 + .ipynb 預覽檔」** 雙軌制，兼顧自動化處理與 GitHub 直接閱讀體驗：
 
-| 單元目錄 | 內容說明 | 核心技術展示 |
+| 單元目錄 | 內容說明 | 核心實作重點 |
 | :--- | :--- | :--- |
 | **[Logic](./if_else)** | 邏輯判定與歸檔 | 條件分支、SmartLife 整合工具 |
+| **[Loops](./loop)** | 迭代結構 | 質數搜尋、選擇排序、Loop 整合工具 |
 | **[Multi-List](./multidimensional_list)** | 多維串列應用 | 矩陣運算、巢狀迴圈、資料表格 |
-| **[Loops](./loop)** | 迭代結構 | 質數搜尋、排序演算法 |
 | **[Functions](./function)** | 程式模組化 | 函式定義、參數傳遞 |
 | **[Data Structures](./list)** | 資料結構 | 氣泡排序、二元搜尋 |
 | **[Basics](./variable_constant)** | 基礎運算 | 變數處理、幾何公式計算 |
@@ -58,11 +59,13 @@ jupytext --to notebook **/learning/*.py
 ```text
 .
 ├── if_else/             
-│   ├── SmartLife_Toolbox.py  # 🏆 核心整合專案
-│   └── learning/             # 📚 邏輯練習題歸檔 (ipynb)
+│   ├── SmartLife_Toolbox.py  # 🏆 邏輯整合作品
+│   └── learning/             # 📚 練習題歸檔 (ipynb)
+├── loop/                
+│   ├── Loop_Practice_Tool.py # 🏆 迴圈整合作品
+│   └── learning/             # 📚 練習題歸檔 (ipynb)
 ├── function/                # 函式模組化練習
 ├── list/                    # 演算法與資料結構練習
-├── loop/                    # 迴圈控制練習
 ├── multidimensional_list/    # 多維串列與矩陣練習
 ├── variable_constant/        # 基礎變數運算練習
 ├── utils/                   # 🛠️ 專案開發輔助工具 (自動標註腳本)
