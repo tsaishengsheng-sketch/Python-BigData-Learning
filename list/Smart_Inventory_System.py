@@ -1,7 +1,7 @@
 """
 檔名：Smart_Inventory_System.py
-功能：資料結構與排序
-學習重點：串列操作、演算法效率優化
+功能：電商庫存管理系統
+學習重點：串列操作、搜尋與排序演算法
 """
 import random
 import math

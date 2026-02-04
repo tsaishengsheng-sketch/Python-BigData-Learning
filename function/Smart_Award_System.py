@@ -1,7 +1,7 @@
 """
 檔名：Smart_Award_System.py
-功能：函式封裝練習
-學習重點：參數傳遞、Return 回傳值應用
+功能：智慧年度評選系統
+學習重點：封裝邏輯、參數傳遞、系統整合
 """
 import math
 import random

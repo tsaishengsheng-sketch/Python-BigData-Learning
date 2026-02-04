@@ -1,7 +1,7 @@
 """
 檔名：Loop_Practice_Tool.py
-功能：迴圈演算法練習
-學習重點：for/while 迭代、控制流程
+功能：多功能迴圈工具
+學習重點：規律生成、質數判定、排序基礎
 """
 import random
 

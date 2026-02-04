@@ -1,7 +1,7 @@
 """
 檔名：RealEstate_Investment_Analyzer.py
-功能：基礎語法練習
-學習重點：變數賦值、基本數學運算
+功能：地產投資分析器
+學習重點：數位拆解、財務複利、三角估價
 """
 import math
 
