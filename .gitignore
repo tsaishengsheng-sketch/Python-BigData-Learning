@@ -15,6 +15,9 @@ __pycache__/
 !**/SmartLife_Toolbox.py
 !**/Loop_Practice_Tool.py
 !**/Smart_Award_System.py
+!**/Smart_Inventory_System.py
+
+
 # 設定檔
 !requirements.txt
 !README.md
