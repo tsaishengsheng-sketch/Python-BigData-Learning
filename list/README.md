@@ -26,5 +26,5 @@
 ---
 
 ### 📂 檔案結構
-* **Smart_Inventory_System.py**：核心作品，展示排序與搜尋的連鎖應用。
-* **learning/**：基礎練習歸檔，包含排序過程紀錄、頻率統計、樂透模擬等 `.ipynb` 檔案。
+* **核心整合**：[`Smart_Inventory_System.py`](./Smart_Inventory_System.py.py) - 核心作品，展示排序與搜尋的連鎖應用。
+* **歸檔練習**：位於 [`learning/`](./learning/) 基礎練習歸檔，包含排序過程紀錄、頻率統計、樂透模擬等

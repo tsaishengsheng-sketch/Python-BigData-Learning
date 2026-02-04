@@ -13,4 +13,3 @@
 2.  **核心整合**：[`SmartLife_Toolbox.py`](./SmartLife_Toolbox.py) - 將多個邏輯判斷功能整合在一起的工具。
 
 ---
-*此處紀錄個人 Python 基礎邏輯的學習進度與練習檔案。*

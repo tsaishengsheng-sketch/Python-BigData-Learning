@@ -15,5 +15,5 @@
 
 
 ### 📂 檔案結構
-* **Smart_Award_System.py**：核心整合作品，展示函式間的邏輯連動。
-* **learning/**：基礎練習存檔（包含 BMI、GPA、溫標、多邊形、距離、計票等原始練習碼）。
+* **核心整合**：[`Smart_Award_System.py`](./Smart_Award_System.py) - 核心整合作品，展示函式間的邏輯連動。
+* **歸檔練習**：位於 [`learning/`](./learning/) 資料夾，包含所有 .ipynb 格式的邏輯練習題。
