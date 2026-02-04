@@ -21,5 +21,5 @@
 ---
 
 ### 📂 檔案結構
-* **核心整合**：[`Matrix_Dashboard.py`](./Matrix_Dashboard.py) - 核心作品，展示單元內邏輯的連動與應用。
+
 * **歸檔練習**：位於 [`learning/`](./learning/) 資料夾，包含所有 .ipynb 格式的基礎與進階練習題。
