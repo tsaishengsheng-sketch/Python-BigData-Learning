@@ -13,6 +13,7 @@ __pycache__/
 
 # 排除重要檔案 (不被忽略)
 !**/SmartLife_Toolbox.py
+!**/Loop_Practice_Tool.py
 
 # 設定檔
 !requirements.txt
