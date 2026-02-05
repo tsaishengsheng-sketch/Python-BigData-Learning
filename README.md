@@ -29,12 +29,9 @@
 - **Hardware**: macOS MacBook Air (M2)
 - **Editor**: VS Code
 - **Version Control**: Git / GitHub(紀錄所有從錯誤到修正的真實開發歷程)
-- 
 ---
 
 ## 🚀 快速開始
-
-###  複製專案
 
 ```bash
 git clone [https://github.com/tsaishengsheng-sketch/Python-BigData-Learning.git](https://github.com/tsaishengsheng-sketch/Python-BigData-Learning.git)
