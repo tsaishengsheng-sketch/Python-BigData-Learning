@@ -1,6 +1,7 @@
 """
 檔名：Smart_Logistics_Matrix_System.py
-功能：智慧物流配送與倉儲庫存分析系統 (100% 對齊版)
+功能：基礎 Python 練習
+學習重點：語法熟悉與邏輯實作
 """
 import random
 
