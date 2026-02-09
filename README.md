@@ -45,7 +45,7 @@ pip install -r requirements.txt
 │   ├── SmartLife_Toolbox.py
 │   └── Cloud_Finance_Manager.py
 
-├── Learning/           # 📚 各章節基礎練習歸檔 (.ipynb & .py)
+├── Learning/           # 📚 各章節基礎練習歸檔
 │   ├── function/
 │   ├── if_else/
 │   ├── list/
