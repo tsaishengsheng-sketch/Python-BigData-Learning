@@ -1,7 +1,7 @@
 """
 檔名：Smart_Inventory_System.py
-功能：電商庫存管理系統
-學習重點：串列操作、搜尋與排序演算法
+功能：實戰專案開發
+學習重點：模組化整合與系統實作
 """
 import random
 import math

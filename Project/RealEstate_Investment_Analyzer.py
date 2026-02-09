@@ -1,7 +1,7 @@
 """
 檔名：RealEstate_Investment_Analyzer.py
-功能：地產投資分析器
-學習重點：數位拆解、財務複利、三角估價
+功能：實戰專案開發
+學習重點：模組化整合與系統實作
 """
 import math
 

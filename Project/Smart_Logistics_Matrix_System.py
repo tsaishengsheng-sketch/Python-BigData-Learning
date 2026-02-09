@@ -1,7 +1,7 @@
 """
 檔名：Smart_Logistics_Matrix_System.py
-功能：基礎 Python 練習
-學習重點：語法熟悉與邏輯實作
+功能：實戰專案開發
+學習重點：模組化整合與系統實作
 """
 import random
 

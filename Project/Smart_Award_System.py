@@ -1,7 +1,7 @@
 """
 檔名：Smart_Award_System.py
-功能：智慧年度評選系統
-學習重點：封裝邏輯、參數傳遞、系統整合
+功能：實戰專案開發
+學習重點：模組化整合與系統實作
 """
 import math
 import random

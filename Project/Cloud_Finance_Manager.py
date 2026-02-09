@@ -1,7 +1,7 @@
 """
 檔名：Cloud_Finance_Manager.py
-功能：綜合性財務數據管理系統 (模組化開發範例)
-學習重點：模組化函式設計、IOError 捕捉、Pickle 序列化、資料統計格式化輸出
+功能：實戰專案開發
+學習重點：模組化整合與系統實作
 """
 
 import pickle
