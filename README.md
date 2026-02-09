@@ -38,12 +38,21 @@ pip install -r requirements.txt
 .
 ├── Project/            # 🏆 核心實戰作品 (延伸練習產出)
 │   ├── Smart_Logistics_Matrix_System.py
+│   ├── Loop_Practice_Tool.py
+│   ├── Smart_Award_System.py
+│   ├── Smart_Inventory_System.py
 │   ├── RealEstate_Investment_Analyzer.py
-│   └── ... (更多實戰作品)
+│   ├── SmartLife_Toolbox.py
+│   └── Cloud_Finance_Manager.py
+
 ├── Learning/           # 📚 各章節基礎練習歸檔 (.ipynb & .py)
 │   ├── function/
 │   ├── if_else/
 │   ├── list/
+│   ├── file_input/
+│   ├── loop/
+│   ├── variable_constant/
+│   ├── tuple_set_dictionary
 │   ├── multidimensional_list/
 │   └── ... (基礎演練)
 ├── utils/              # 🛠️ 專案輔助工具 (自動標註腳本)
