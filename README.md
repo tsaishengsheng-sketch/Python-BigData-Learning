@@ -5,14 +5,6 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
 ![Format](https://img.shields.io/badge/Format-Jupyter_Notebook-orange?style=flat-square&logo=jupyter)
 
-## 🌟 階段性小成果這是我將各章節知識點進行「延伸實戰」後產出的核心作品，重點在於邏輯整合與視覺化呈現。
-
-* **[Smart_Logistics_Matrix_System.py](./Project/Smart_Logistics_Matrix_System.py)**：智慧物流配送與倉儲庫存分析系統
-* **[RealEstate_Investment_Analyzer.py](./Project/RealEstate_Investment_Analyzer.py)**：地產投資分析器
-* **[Smart_Inventory_System.py](./Project/Smart_Inventory_System.py)**：地產投資分析器
-* **[Smart_Award_System.py](./Project/Smart_Award_System.py)**：智慧年度評選系統
-* **[SmartLife_Toolbox.py](./Project/SmartLife_Toolbox.py)**：生活工具箱
-* **[Loop_Practice_Tool.py](./Project/Loop_Practice_Tool.py)**：迴圈工具
 ---
 
 ## 📂 專案導覽 (Navigation)
