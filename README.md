@@ -53,6 +53,6 @@ pip install -r requirements.txt
 │   ├── loop/
 │   ├── variable_constant/
 │   ├── tuple_set_dictionary
-│   ├── multidimensional_list/
+│   └── multidimensional_list/
 ├── utils/              # 🛠️ 專案輔助工具 (自動標註腳本)
 └── README.md           # 🗺️ 專案總覽導覽
