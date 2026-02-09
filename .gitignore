@@ -14,14 +14,8 @@ __pycache__/
 # 允許所有的 .ipynb
 !**/*.ipynb
 
-# 排除重要檔案 (不被忽略)
-!**/SmartLife_Toolbox.py
-!**/Loop_Practice_Tool.py
-!**/Smart_Award_System.py
-!**/Smart_Inventory_System.py
-!**/RealEstate_Investment_Analyzer.py
-!**/Smart_Logistics_Matrix_System.py
-!**/Cloud_Finance_Manager.py
+# 🔥 核心修正：允許Project資料夾下的所有 .py 檔上傳
+!Project/**/*.py
 
 # 設定檔
 !requirements.txt
