@@ -1,8 +1,13 @@
 """
 檔名：Smart_Inventory_System.py
-功能：實戰專案開發
-學習重點：模組化整合與系統實作
+功能：智慧電商庫存管理系統 (演算法優化與統計實作)
+技術亮點：
+    1. 數據連動排序：實作氣泡排序 (Bubble Sort) 並達成 ID 與 Price 的同步交換邏輯，確保資料結構的完整性。
+    2. 高效檢索演算法：針對已排序序列實作二分搜尋 (Binary Search)，大幅提升大數據環境下的查詢效率。
+    3. 進階統計分析：利用 math 模組結合串列生成式計算標準差 (Standard Deviation)，量化評估產品價格波動。
+    4. 系統健壯性：整合 try-except 捕捉輸入異常，並使用 random.sample 確保生成不重複的唯一識別碼 (UID)。
 """
+
 import random
 import math
 
