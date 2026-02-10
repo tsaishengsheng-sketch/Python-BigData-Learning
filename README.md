@@ -18,7 +18,7 @@
 ---
 
 ## 🏆 實戰作品亮點 (Featured Projects)
-1. **[Smart_Security_Access_System](./Learning/tuple_set_dictionary/Smart_Security_Access_System.py)**：🔥 **(New)** 結合 Set 高速黑名單比對與 Dictionary 通行日誌追蹤。
+1. **[Smart_Security_Access_System](./Learning/tuple_set_dictionary/Smart_Security_Access_System.py)**：整合 Set 權限過濾與 Dict 通行紀錄系統。
 2. **[Cloud_Finance_Manager](./Project/Cloud_Finance_Manager.py)**：實作三層架構設計與 `pickle` 資料持久化。
 3. **[Smart_Inventory_System](./Project/Smart_Inventory_System.py)**：運用二分搜尋與氣泡排序優化檢索效率。
 4. **[Smart_Logistics_Matrix](./Project/Smart_Logistics_Matrix_System.py)**：物件導向處理二維矩陣運算與視覺化報表。
