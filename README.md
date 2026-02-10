@@ -18,15 +18,14 @@
 ---
 
 ## 🏆 實戰作品亮點 (Featured Projects)
-1. **[Cloud_Finance_Manager](./Project/Cloud_Finance_Manager.py)**：實作三層架構設計與 `pickle` 資料持久化。
-2. **[Smart_Inventory_System](./Project/Smart_Inventory_System.py)**：運用二分搜尋與氣泡排序優化檢索效率。
-3. **[Smart_Logistics_Matrix](./Project/Smart_Logistics_Matrix_System.py)**：物件導向處理二維矩陣運算與視覺化報表。
-4. **[RealEstate_Investment_Analyzer](./Project/RealEstate_Investment_Analyzer.py)**：整合科學運算實作土地估價與房貸財務模型。
-5. **[Smart_Award_System](./Project/Smart_Award_System.py)**：結合隨機驗證碼機制與多層級業務邏輯判定。
-6. **[Loop_Practice_Tool](./Project/Loop_Practice_Tool.py)**：整合質數分析、選擇排序與規律生成工具。
-7. **[SmartLife_Toolbox](./Project/SmartLife_Toolbox.py)**：結合 BMI 診斷邏輯與隨機決策系統的生活應用。
+1. **[Smart_Security_Access_System](./Learning/tuple_set_dictionary/Smart_Security_Access_System.py)**：🔥 **(New)** 結合 Set 高速黑名單比對與 Dictionary 通行日誌追蹤。
+2. **[Cloud_Finance_Manager](./Project/Cloud_Finance_Manager.py)**：實作三層架構設計與 `pickle` 資料持久化。
+3. **[Smart_Inventory_System](./Project/Smart_Inventory_System.py)**：運用二分搜尋與氣泡排序優化檢索效率。
+4. **[Smart_Logistics_Matrix](./Project/Smart_Logistics_Matrix_System.py)**：物件導向處理二維矩陣運算與視覺化報表。
+5. **[RealEstate_Investment_Analyzer](./Project/RealEstate_Investment_Analyzer.py)**：整合科學運算實作土地估價與房貸財務模型。
+6. **[Smart_Award_System](./Project/Smart_Award_System.py)**：結合隨機驗證碼機制與多層級業務邏輯判定。
+7. **[Loop_Practice_Tool](./Project/Loop_Practice_Tool.py)**：整合質數分析、選擇排序與規律生成工具。
 8. **[SmartLife_Toolbox](./Project/SmartLife_Toolbox.py)**：結合 BMI 診斷邏輯與隨機決策系統的生活應用。
-   
 
 ---
 
