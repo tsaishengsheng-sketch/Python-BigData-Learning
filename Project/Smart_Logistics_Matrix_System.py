@@ -1,8 +1,15 @@
 """
 檔名：Smart_Logistics_Matrix_System.py
-功能：實戰專案開發
-學習重點：模組化整合與系統實作
+功能：智慧物流矩陣系統 (物件導向與多維運算實作)
+技術亮點：
+    1. 物件導向架構 (OOP)：定義 LogisticsAnalytics 類別，實作屬性封裝與方法模組化，提升程式碼重用性。
+    2. 二維矩陣運算：利用雙層串列生成式實作矩陣加法 (Matrix Addition)，模擬跨區域庫存數據的自動化整合。
+    3. 進階終端機 UI 設計：
+       - 運用制表符 (┌ ┬ ┐) 與格式化字串 (f-string alignment) 建構高精度對齊表格。
+       - 精算字元寬度與補白 (Padding)，確保在不同終端機環境下的報表視覺一致性。
+    4. 隨機模擬技術：整合 random.randint 進行批次庫存數據生成，並實作跨物件的資料同步與報表輸出邏輯。
 """
+
 import random
 
 class LogisticsAnalytics:
