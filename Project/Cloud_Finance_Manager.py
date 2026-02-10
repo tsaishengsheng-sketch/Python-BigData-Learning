@@ -1,7 +1,16 @@
 """
 檔名：Cloud_Finance_Manager.py
-功能：實戰專案開發
-學習重點：模組化整合與系統實作
+功能：個人雲端財務管理系統 (三層架構開發實作)
+技術亮點：
+    1. 分層架構設計：
+       - 資料層 (Data Layer)：負責 pickle 二進位物件持久化。
+       - 邏輯層 (Logic Layer) : 負責數值統計分析。
+       - 展示層 (Presentation Layer)：負責 CLI 互動介面。
+    2. 安全防禦邏輯：
+       - 整合 os.path 進行檔案存在檢查，避免讀取崩潰。
+       - 實作 try...except 多重例外捕捉，過濾 eval 非法輸入與檔案 IO 異常。
+    3. 資料處理效能：
+       - 運用串列生成式 (List Comprehension) 提取字典數據，並進行浮點數精確度格式化 (:.2f)。
 """
 
 import pickle
