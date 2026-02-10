@@ -25,6 +25,8 @@
 5. **[Smart_Award_System](./Project/Smart_Award_System.py)**：結合隨機驗證碼機制與多層級業務邏輯判定。
 6. **[Loop_Practice_Tool](./Project/Loop_Practice_Tool.py)**：整合質數分析、選擇排序與規律生成工具。
 7. **[SmartLife_Toolbox](./Project/SmartLife_Toolbox.py)**：結合 BMI 診斷邏輯與隨機決策系統的生活應用。
+8. **[SmartLife_Toolbox](./Project/SmartLife_Toolbox.py)**：結合 BMI 診斷邏輯與隨機決策系統的生活應用。
+   
 
 ---
 
@@ -53,6 +55,6 @@ pip install -r requirements.txt
 ├── Project/            # 🏆 核心實戰作品 (手動維護專業註解)
 ├── Learning/           # 📚 各章節基礎練習 (自動標註腳本管理)
 │   ├── ...
-│   ├── tuple_set_dictionary # 🎯 正在進行中
+│   ├── OOP # 🎯 正在進行中
 ├── utils/              # 🛠️ 專案輔助工具 (add_docstrings.py)
 └── .gitignore          # 🛡️ 檔案排除規則
