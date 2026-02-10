@@ -1,7 +1,13 @@
 """
 檔名：Loop_Practice_Tool.py
-功能：實戰專案開發
-學習重點：模組化整合與系統實作
+功能：全能數字研究員 (綜合迴圈與演算法工具箱)
+技術亮點：
+    1. 邏輯分流設計：使用 While-True 搭配多分支 if-elif 實作 CLI 互動式功能選單。
+    2. 進階規律生成：整合巢狀迴圈 (Nested Loops) 實作對稱式金字塔，展現字串乘法與迭代邏輯。
+    3. 演算法綜合實作：
+       - 數論分析：包含質數判定 (Primality Test) 與最大公因數 (GCD) 邏輯。
+       - 隨機處理與排序：結合 random 模組生成數據，並實作選擇排序 (Selection Sort) 原理。
+    4. 模組化整合思維：將分散的基礎練習 (Lotto, Sort, Pyramid) 封裝至單一系統入口。
 """
 import random
 
