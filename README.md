@@ -17,6 +17,18 @@
 
 ---
 
+## 🏆 實戰作品亮點 (Featured Projects)
+1. **[Cloud_Finance_Manager](./Project/Cloud_Finance_Manager.py)**：實作三層架構設計與 `pickle` 資料持久化。
+2. **[Smart_Inventory_System](./Project/Smart_Inventory_System.py)**：運用二分搜尋與氣泡排序優化檢索效率。
+3. **[Smart_Logistics_Matrix](./Project/Smart_Logistics_Matrix_System.py)**：物件導向處理二維矩陣運算與視覺化報表。
+4. **[RealEstate_Investment_Analyzer](./Project/RealEstate_Investment_Analyzer.py)**：整合科學運算實作土地估價與房貸財務模型。
+5. **[Smart_Award_System](./Project/Smart_Award_System.py)**：結合隨機驗證碼機制與多層級業務邏輯判定。
+6. **[Loop_Practice_Tool](./Project/Loop_Practice_Tool.py)**：整合質數分析、選擇排序與規律生成工具。
+7. **[SmartLife_Toolbox](./Project/SmartLife_Toolbox.py)**：結合 BMI 診斷邏輯與隨機決策系統的生活應用。
+
+---
+
+
 ## 🛠️ 開發環境
 - **Hardware**: macOS MacBook Air (M2)
 - **Editor**: VS Code
@@ -27,32 +39,18 @@
 
 ```bash
 git clone [https://github.com/tsaishengsheng-sketch/Python-BigData-Learning.git](https://github.com/tsaishengsheng-sketch/Python-BigData-Learning.git)
+
 cd Python-BigData-Learning
+
 python3 -m venv venv && source venv/bin/activate
-pip install --upgrade pip
+
 pip install -r requirements.txt
 
 ```
 - ## 📂 專案結構
 ```text
 .
-├── Project/            # 🏆 核心實戰作品 (延伸練習產出)
-│   ├── Smart_Logistics_Matrix_System.py
-│   ├── Loop_Practice_Tool.py
-│   ├── Smart_Award_System.py
-│   ├── Smart_Inventory_System.py
-│   ├── RealEstate_Investment_Analyzer.py
-│   ├── SmartLife_Toolbox.py
-│   └── Cloud_Finance_Manager.py
-
-├── Learning/           # 📚 各章節基礎練習歸檔
-│   ├── function/
-│   ├── if_else/
-│   ├── list/
-│   ├── file_input/
-│   ├── loop/
-│   ├── variable_constant/
-│   ├── tuple_set_dictionary
-│   └── multidimensional_list/
-├── utils/              # 🛠️ 專案輔助工具 (自動標註腳本)
-└── README.md           # 🗺️ 專案總覽導覽
+├── Project/            # 🏆 核心實戰作品 (手動維護專業註解)
+├── Learning/           # 📚 各章節基礎練習 (自動標註腳本管理)
+├── utils/              # 🛠️ 專案輔助工具 (add_docstrings.py)
+└── .gitignore          # 🛡️ 檔案排除規則
