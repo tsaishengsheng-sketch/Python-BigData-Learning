@@ -39,8 +39,7 @@
 ## 🚀 快速開始
 
 ```bash
-git clone [https://github.com/tsaishengsheng-sketch/Python-BigData-Learning.git](https://github.com/tsaishengsheng-sketch/Python-BigData-Learning.git)
-
+git clone [https://github.com/tsaishengsheng-sketch/Python-BigData-Learning.git]
 cd Python-BigData-Learning
 
 python3 -m venv venv && source venv/bin/activate
