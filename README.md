@@ -48,7 +48,8 @@ python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 
 ```
-- ## 📂 專案結構
+---
+## 📂 專案結構
 ```text
 .
 ├── Project/            # 🏆 核心實戰作品 (手動維護專業註解)
@@ -58,16 +59,16 @@ pip install -r requirements.txt
 ├── utils/              # 🛠️ 專案輔助工具 (add_docstrings.py)
 └── .gitignore          # 🛡️ 檔案排除規則
 
-
+---
 ## 📝 Git 提交規範 (Commit Message Convention)
 
 為了保持開發紀錄整潔，本專案採用以下標籤開頭：
 
 | 標籤 | 說明 | 範例 |
 | :--- | :--- | :--- |
-| `feat:` | 新增功能 / 檔案 | `feat: add Circle class` |
-| `fix:` | 修復錯誤 / 邏輯 | `fix: correct matrix sum logic` |
-| `docs:` | 文件更新 / 備註 | `docs: update README conventions` |
-| `style:` | 格式調整 (不影響邏輯) | `style: fix indentation` |
-| `refactor:` | 程式碼重構 | `refactor: simplify loop structure` |
-| `chore:` | 雜務 (工具、設定) | `chore: update .gitignore` |
+| feat: | 新增功能 / 檔案 | feat: add Circle class |
+| fix: | 修復錯誤 / 邏輯 | fix: correct matrix sum logic |
+| docs: | 文件更新 / 備註 | docs: update README conventions |
+| style: | 格式調整 (不影響邏輯) | style: fix indentation |
+| refactor: | 程式碼重構 | refactor: simplify loop structure |
+| chore: | 雜務 (工具、設定) | chore: update .gitignore |
