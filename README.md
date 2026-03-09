@@ -66,7 +66,7 @@ pip install -r requirements.txt
 │   ├── tuple_set_dictionary/   # ✅ 元組、集合、字典
 │   ├── file_input/             # ✅ 檔案輸入與例外處理
 │   ├── OOP/                    # ✅ 物件導向程式設計
-│   └── data_analysis/          # 🎯 正在進行中（NumPy & Pandas）
+│   └── numpy_pandas/           # 🎯 正在進行中（NumPy & Pandas）
 ├── dat/                        # 📦 資料檔案
 ├── utils/                      # 🛠️ 專案輔助工具（add_docstrings.py）
 └── .gitignore                  # 🛡️ 檔案排除規則
