@@ -27,6 +27,7 @@
 7. **[Loop_Practice_Tool](./Project/Loop_Practice_Tool.py)**：整合質數分析、選擇排序與規律生成工具。
 8. **[SmartLife_Toolbox](./Project/SmartLife_Toolbox.py)**：結合 BMI 診斷邏輯與隨機決策系統的生活應用。
 9. **[Cafe_Order_System](./Project/Cafe_order_system.py)**：運用 OOP 繼承與多型設計咖啡廳點餐系統，整合自訂異常處理庫存邏輯。
+10. **[Flight_Delay_Analyzer](./Project/Flight_Delay_Analyzer.py)**：整合 NumPy 與 Pandas 分析航班誤點資料，統計各航線與時段誤點趨勢。
 
 ---
 
@@ -66,7 +67,8 @@ pip install -r requirements.txt
 │   ├── tuple_set_dictionary/   # ✅ 元組、集合、字典
 │   ├── file_input/             # ✅ 檔案輸入與例外處理
 │   ├── OOP/                    # ✅ 物件導向程式設計
-│   └── numpy_pandas/           # 🎯 正在進行中（NumPy & Pandas）
+│   ├── numpy_pandas/           # ✅ NumPy 與 Pandas 資料分析
+│   └── matplotlib/             # 🎯 正在進行中（資料視覺化）
 ├── dat/                        # 📦 資料檔案
 ├── utils/                      # 🛠️ 專案輔助工具（add_docstrings.py）
 └── .gitignore                  # 🛡️ 檔案排除規則
