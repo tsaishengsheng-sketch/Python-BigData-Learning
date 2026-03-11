@@ -1,3 +1,9 @@
+"""
+檔名：Flight_Delay_Analyzer.py
+功能：模擬台灣國內航班誤點資料，分析各航線與時段的誤點趨勢並找出嚴重誤點航班
+技術亮點：NumPy 隨機資料模擬、Pandas groupby 多維聚合、clip 處理異常值、apply lambda 格式化輸出
+"""
+
 import pandas as pd
 import numpy as np
 
