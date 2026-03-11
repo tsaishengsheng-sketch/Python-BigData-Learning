@@ -1,3 +1,9 @@
+"""
+檔名：MRT_Flow_Analyzer.py
+功能：台北捷運五路線人流視覺化分析系統，模擬各站平日／週末人次，產出多種統計圖表
+技術亮點：NumPy 隨機模擬與尖峰乘數設計、Pandas groupby 多維聚合、Matplotlib 長條圖／折線圖／圓餅圖整合輸出
+"""
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
