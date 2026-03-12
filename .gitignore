@@ -21,3 +21,8 @@ __pycache__/
 !requirements.txt
 !README.md
 !LICENSE
+
+# Ignore SQLite database files
+*.db
+*.sqlite
+*.sqlite3
