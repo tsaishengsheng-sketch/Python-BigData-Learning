@@ -70,7 +70,8 @@ pip install -r requirements.txt
 │   ├── OOP/                    # ✅ 物件導向程式設計
 │   ├── numpy_pandas/           # ✅ NumPy 與 Pandas 資料分析
 │   ├── matplotlib/             # ✅ 資料視覺化
-│   └── open_data_formats/      # 🎯 正在進行中（XML、JSON、CSV）
+│   ├── open_data_formats/      # ✅ 開放平台資料格式（XML、JSON、CSV）
+│   └── web_scraping/           # 🎯 正在進行中（網頁資料擷取）
 ├── dat/                        # 📦 資料檔案
 ├── utils/                      # 🛠️ 專案輔助工具（add_docstrings.py）
 └── .gitignore                  # 🛡️ 檔案排除規則
