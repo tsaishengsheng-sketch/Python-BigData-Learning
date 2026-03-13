@@ -29,6 +29,7 @@
 9. **[Cafe_Order_System](./Project/Cafe_order_system.py)**：運用 OOP 繼承與多型設計咖啡廳點餐系統，整合自訂異常處理庫存邏輯。
 10. **[Flight_Delay_Analyzer](./Project/Flight_Delay_Analyzer.py)**：整合 NumPy 與 Pandas 分析航班誤點資料，統計各航線與時段誤點趨勢。
 11. **[MRT_Flow_Analyzer](./Project/MRT_Flow_Analyzer.py)**：模擬台北捷運五路線人流資料，整合 NumPy、Pandas、Matplotlib 產出多圖表視覺化分析。
+12. **[Job_Radar_104](./Project/Job_Radar_104.py)**：互動式 104 職缺雷達，支援關鍵字搜尋、地區篩選、遠端篩選，統計熱門公司、技能需求與薪資分布。
 
 ---
 
